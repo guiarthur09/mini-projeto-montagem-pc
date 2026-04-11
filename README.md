@@ -42,7 +42,7 @@ Durante o projeto, foram levados em conta fatores como:
 ---
 
 ## 📚 Aprendizados
-Este projeto ajudou a desenvolver conhecimentos sobre hardware, montagem de computadores e planejamento de sistemas, sendo uma base importante para quem deseja seguir na área de tecnologia. Além disso nos ajudando a entender melhor o funcionamento em trabalhar em equipe.
+Este projeto ajudou a desenvolver conhecimentos sobre hardware, montagem de computadores e planejamento de sistemas, sendo uma base importante para quem deseja seguir na área de tecnologia. Além disso nos ajudando a entender melhor o trabalho em trabalhar em equipe.
 
 ---
 
