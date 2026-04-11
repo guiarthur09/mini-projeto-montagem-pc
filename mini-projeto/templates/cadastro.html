@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Montagem de PC</title>
+    <link rel="stylesheet" href="../assets/css/cadastro.css">
+    <link rel="icon" href="../assets/img/favicon/favicon.ico" type="image/png">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Montar PC</h1>
+
+        <form id="form">
+
+            <!-- DADOS DO USUÁRIO -->
+            <input type="text" id="nome" placeholder="Nome do usuário">
+            <input type="email" id="email" placeholder="Digite seu email">
+            <input type="number" id="orcamento" placeholder="Orçamento (R$)">
+
+            <select id="tipo">
+                <option value="">Selecione o tipo</option>
+                <option value="escritorio">Escritório</option>
+                <option value="gamer">Gamer</option>
+                <option value="edicao">Edição</option>
+            </select>
+
+            <hr>
+
+            <h2>Escolha as peças</h2>
+
+            <!-- PEÇAS -->
+            <select id="cpu"></select>
+            <select id="mb"></select>
+            <select id="ram"></select>
+            <select id="gpu"></select>
+            <select id="sto"></select>
+            <select id="psu"></select>
+            <select id="gabinete"></select>
+            <select id="cooler"></select>
+
+            <hr>
+
+            <!-- TOTAL -->
+            <p id="total">Total: R$ 0</p>
+
+            <button type="submit" id="salvar">Salvar</button>
+            
+        </form>
+
+        <a href="index.html" class="btn-voltar">Voltar</a>
+
+    </div>
+
+    <!-- IMPORTANTE: arrays precisam vir antes -->
+    <script src="../assets/js/dados.js"></script>
+
+
+    <!-- seu script -->
+    <script src="../assets/js/cadastro.js"></script>
+    
+</body>
+</html>

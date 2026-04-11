@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/contatos.css">
+    <link rel="icon" href="../assets/img/favicon/favicon.ico" type="image/png">
+    <title>Contatos</title>
+</head>
+<body>
+
+    <div class="header">
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contatos.html" class="active">Contato</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <main class="main">
+        <div class="container">
+            <h1>🗨️ Contato</h1>
+            <p class="subtitle">Nos conheça melhor, acesse o link do GitHub...</p>
+
+            <div class="info-list">
+
+                <div class="info-item" onclick="toggleLinks(this)">
+                    <div class="info-row">
+                        <div class="info-icon">
+                            <img src="/assets/img/equipe/guilherme.jpeg" alt="Guilherme">
+                        </div>
+                        <div class="info-content">
+                            <label>CEO</label>
+                            <span class="nome">Guilherme Silveira</span>
+                        </div>
+                        <span class="seta">▼</span>
+                    </div>
+                    <div class="links-painel">
+                        <a href="https://github.com/guiarthur09" target="_blank" onclick="event.stopPropagation()">🐙 GitHub</a>
+                        <a href="https://wa.me/5547988263210" target="_blank" onclick="event.stopPropagation()">💬 WhatsApp</a>
+                    </div>
+                </div>
+
+                <div class="info-item" onclick="toggleLinks(this)">
+                    <div class="info-row">
+                        <div class="info-icon">
+                            <img src="/assets/img/equipe/caetano.png" alt="Caetano">
+                        </div>
+                        <div class="info-content">
+                            <label>Tech lead</label>
+                            <span class="nome">Caetano Petry</span>
+                        </div>
+                        <span class="seta">▼</span>
+                    </div>
+                    <div class="links-painel">
+                        <a href="https://github.com/caetanopetry" target="_blank" onclick="event.stopPropagation()">🐙 GitHub</a>
+                        <a href="https://wa.me/554792913723" target="_blank" onclick="event.stopPropagation()">💬 WhatsApp</a>
+                    </div>
+                </div>
+
+                <div class="info-item" onclick="toggleLinks(this)">
+                    <div class="info-row">
+                        <div class="info-icon">
+                            <img src="/assets/img/equipe/henrique.png" alt="Henrique">
+                        </div>
+                        <div class="info-content">
+                            <label>Markting</label>
+                            <span class="nome">Henrique Nau</span>
+                        </div>
+                        <span class="seta">▼</span>
+                    </div>
+                    <div class="links-painel">
+                        <a href="https://github.com/henriquenau13" target="_blank" onclick="event.stopPropagation()">🐙 GitHub</a>
+                        <a href="https://wa.me/554792793880" target="_blank" onclick="event.stopPropagation()">💬 WhatsApp</a>
+                    </div>
+                </div>
+
+                <div class="info-item" onclick="toggleLinks(this)">
+                    <div class="info-row">
+                        <div class="info-icon">
+                            <img src="/assets/img/equipe/pietro.jpg" alt="Pietro">
+                        </div>
+                        <div class="info-content">
+                            <label>CTO</label>
+                            <span class="nome">Pietro Tamanini</span>
+                        </div>
+                        <span class="seta">▼</span>
+                    </div>
+                    <div class="links-painel">
+                        <a href="https://github.com/PietroTamanini" target="_blank" onclick="event.stopPropagation()">🐙 GitHub</a>
+                        <a href="https://wa.me/554784194811" target="_blank" onclick="event.stopPropagation()">💬 WhatsApp</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="voltar">
+                <a href="index.html">Voltar</a>
+            </div>
+
+        </div>
+    </main>
+
+    <div class="footer">
+        Todos os direitos reservados &copy; 2026
+    </div>
+
+    <script>
+        function toggleLinks(item) {
+            document.querySelectorAll('.info-item').forEach(i => {
+                if (i !== item) i.classList.remove('aberto');
+            });
+            item.classList.toggle('aberto');
+        }
+    </script>
+
+</body>
+</html>
