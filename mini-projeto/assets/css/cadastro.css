@@ -165,19 +165,6 @@ select:hover {
     border-color: #2E6F73;
 }
 
-
-/* ============================= */
-/* ANIMAÇÃO SUAVE */
-/* ============================= */
-.container {
-    transition: 0.3s;
-}
-
-.container:hover {
-    transform: scale(1.01);
-}
-
-
 /* Responsivo */
 @media (max-width: 480px) {
     .container {
