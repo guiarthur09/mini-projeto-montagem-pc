@@ -46,5 +46,5 @@ Este projeto ajudou a desenvolver conhecimentos sobre hardware, montagem de comp
 
 ---
 
-## 👨‍💻 Autor
-Desenvolvido por Guilherme Silveira
+## 👨‍💻 Autores
+Desenvolvido por GHCP -> Guilherme Silveira, Henrique Nau, Caetano Petry, Pietro Tamanini
