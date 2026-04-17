@@ -128,7 +128,6 @@ document.addEventListener("DOMContentLoaded", () => {
         const pc = {
             nome: document.getElementById("nome").value,
             email: document.getElementById("email").value,
-            orcamento: document.getElementById("orcamento").value,
             tipo: document.getElementById("tipo").value,
             cpu: document.getElementById("cpu").value,
             mb: document.getElementById("mb").value,
